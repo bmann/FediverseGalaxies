@@ -20,11 +20,11 @@
 
 title: Fediverse Galaxy Info
 name: Fediverse Organizations # for feed names
-email: your-email@example.com
+email:
 description: >- # this means to ignore newlines until "baseurl:"
   A gathering of information about Fediverse organizations, especially those that run galaxies of more than one fediverse-enabled services, as well as supporting operational services for members.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cosocial-canada.github.io/FediverseGalaxies/" # the base hostname & protocol for your site, e.g. http://example.com
 
 feed_items: 25
 feed_update_period: daily
