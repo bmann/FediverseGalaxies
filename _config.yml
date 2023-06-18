@@ -31,7 +31,7 @@ feed_update_period: daily
 feed_update_frequency: 1
 
 activitypub_username: "@coop@cosocial.ca"
-github_username:  CoSocial-Canada
+github_username:  CoSocial-Canada/FediverseGalaxies
 
 # Build settings
 theme: minima

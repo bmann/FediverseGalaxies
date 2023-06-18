@@ -5,8 +5,8 @@
   "title": {{ site.title | jsonify }},
   "description": {% if site.description %}{{ site.description | jsonify }}{% endif %},
   "home_page_url": "{{ site.url }}",
-  "feed_url": "{{ site.url }}/orgs.json",
-  "favicon": "{{ site.url}}/favicon.png",
+  "feed_url": "{{ site.url }}{{ site.baseurl }}/orgs.json",
+  "favicon": "{{ site.url}}{{ site.baseurl }}/favicon.png",
   {% if site.author %}
   "author": {
     "name": {{ site.author | jsonify }}
